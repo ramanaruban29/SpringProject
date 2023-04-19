@@ -1,0 +1,7 @@
+services:
+  db:
+    container_name:postgres
+    image: postgres
+    environment:
+      POSTGRES_USER:amigoscode
+
